@@ -5,7 +5,7 @@ const Stock = () => {
     return (
         <Container>
             <Content>
-                <h1>Stock Page</h1>
+                <h1>Stock</h1>
             </Content>
         </Container>
     )
@@ -13,6 +13,13 @@ const Stock = () => {
 
 export default Stock
 
-const Content = styled.h1 `
+const Content = styled.div `
+
+h1{
     color: white;
+    justify-content: space-around;
+}
+button{
+    color: red;
+}
 `

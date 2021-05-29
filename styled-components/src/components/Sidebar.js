@@ -42,7 +42,8 @@ export default Sidebar
 const Container = styled.div `
     justify-content: flex-end;
     position: fixed;
-    width: 200px;
+    width: 180px;
+    height: 850px;
     top:0;
     left: 0;
     bottom: 0;

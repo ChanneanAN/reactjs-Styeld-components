@@ -13,6 +13,13 @@ const Report = () => {
 
 export default Report;
 
-const Content = styled.h1 `
+const Content = styled.div `
+
+h1{
     color: white;
+    justify-content: space-around;
+}
+button{
+    color: red;
+}
 `
